@@ -95,8 +95,8 @@
 <div class="result">Profitable in <b>every out-of-sample period</b> (2025, Jul–Nov 2026), averaging <b>~40%/month</b> with a <b>Sharpe ratio of 3.1</b> and <b>~49% max drawdown</b> in simulated backtests. Stress-tested across <b>12 cost &amp; latency conditions</b>, with lookahead checks and independent re-implementations. Now <b>forward-testing on a live account</b>.</div></div>
 <div class="card case"><div class="tag">Quant · MQL5 · Python</div>
 <h3>Alfred</h3>
-<p>A standalone intraday trading system for gold (XAUUSD), written in MQL5. It takes at most one trade a day, with an automatic stop, an end-of-day exit and capped loss-recovery sizing, and runs alongside QuadBreak as a diversifying second system. It was researched on the same tick-level engine and test pipeline.</p>
-<div class="result">Profitable in <b>every test period</b>, averaging <b>~8%/month</b> with a <b>Sharpe ratio of 1.9</b> and <b>43% max drawdown</b> in simulated backtests at 1% risk per trade, compounding as the EA trades.</div></div>
+<p>A standalone intraday trading system for gold (XAUUSD), written in MQL5. It takes at most one trade a day, with an automatic stop, a profit lock, an end-of-day exit and capped loss-recovery sizing, and runs alongside QuadBreak as a diversifying second system. It was researched on the same tick-level engine and test pipeline.</p>
+<div class="result">Backtest (Jan 2025 – Nov 2026, compounding): <b>8.4%/month</b> with a <b>19.1% max drawdown</b>, <b>$1,000 → $6,114</b>, profitable in every period. Settings: 1% of balance per trade (×0.25 on quiet days), recovery sizing ×1.5 up to 2 steps, profit lock at +3R. Confirmed in the <b>MT5 Strategy Tester</b>.</div></div>
 <div class="card case"><div class="tag">Big data · AWS</div>
 <h3>Australian Rainfall Prediction</h3>
 <p>Production-level ML models on large datasets, built with Flask and PySpark on AWS EC2 and S3.</p>
